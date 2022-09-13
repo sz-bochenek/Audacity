@@ -1,7 +1,21 @@
 body{
     background-color: #C2B280;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
+}
+footer{
+    background-color: #E39556;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
 }
 .baner{
     margin: 0;
@@ -9,6 +23,11 @@ body{
     width: 100%;
 
 }
+.sec{
+    display: flex;
+    justify-content: space-between;
+}
+
 .cen{
     text-align: center;
 }
@@ -27,6 +46,7 @@ body{
 .foto{
     margin: 0;
     margin-right: 1%;
+    margin-bottom: 1%;
     padding: 0;
     width: 100%;
     border-radius: 10px;
